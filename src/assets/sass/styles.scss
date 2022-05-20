@@ -1,0 +1,74 @@
+@import "./variables.scss";
+
+// @import url("url font google");
+
+body{
+    background-color: $bgColor;
+    color: $colorText;
+    font-family: $fontDefault;
+}
+
+
+
+.card{
+    max-width: 300px;
+    height: 400px;
+    border-radius: $radiusDefault;
+    background-color: gray;
+
+    .title{
+        padding: $paddingDefault + $paddingDefault;
+        font-family: 300px;
+        font-weight: 'bold';
+        font-size: 24px;
+      
+    }
+}
+
+.image{
+  width: 90%;
+  height: auto;
+}
+
+.button{
+    &._danger{
+        padding: $paddingDefault + $paddingDefault;
+        border-radius: $radiusDefault;
+        background-color: red;
+        color: white;
+        transition: $transitionSpeed;
+        &:hover{
+            background-color: orange;
+        }
+    }
+    &._sucess{
+        background-color: green;
+        color: white;
+        transition: $transitionSpeed;
+        &:hover{
+            background-color: greenyellow;
+        }
+    }
+
+}
+
+#contact{
+    & > input[type="text"]{
+        background-color: black;
+        color: white;
+    }
+
+    & > input[type="submit"]{
+        padding: $paddingDefault;
+        border-radius: $radiusDefault;
+        background-color: black;
+        color: white;
+        transition: 0.3s;
+    
+
+    &:hover{
+        background-color: white;
+        color: black;
+    }
+}
+}

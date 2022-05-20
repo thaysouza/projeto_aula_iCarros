@@ -1,0 +1,60 @@
+body {
+  background-color: red;
+  color: white;
+  font-family: "Roboco";
+}
+
+.card {
+  max-width: 300px;
+  height: 400px;
+  border-radius: 12px;
+  background-color: gray;
+}
+.card .title {
+  padding: 8px;
+  font-family: 300px;
+  font-weight: "bold";
+  font-size: 24px;
+}
+
+.image {
+  width: 90%;
+  height: auto;
+}
+
+.button._danger {
+  padding: 8px;
+  border-radius: 12px;
+  background-color: red;
+  color: white;
+  transition: 8.3s;
+}
+.button._danger:hover {
+  background-color: orange;
+}
+.button._sucess {
+  background-color: green;
+  color: white;
+  transition: 8.3s;
+}
+.button._sucess:hover {
+  background-color: greenyellow;
+}
+
+#contact > input[type=text] {
+  background-color: black;
+  color: white;
+}
+#contact > input[type=submit] {
+  padding: 4px;
+  border-radius: 12px;
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+}
+#contact > input[type=submit]:hover {
+  background-color: white;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
